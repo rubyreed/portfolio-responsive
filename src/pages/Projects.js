@@ -1,11 +1,12 @@
 import React from "react";
+import { Container } from "react-bootstrap";
 
 const Projects = () => {
     return (
-        <div className="container">
+        <Container>
             <h1>Projects</h1>
-        </div>
-    )
-}
+        </Container>
+    );
+};
 
 export default Projects;
