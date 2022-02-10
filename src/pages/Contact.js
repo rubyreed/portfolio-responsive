@@ -22,12 +22,12 @@ const Contact = () => {
       );
     }
     return (
-    <MyContainer>
-        <Header>
+    <div style={{display:"flex", justifyContent:"center", marginTop:"5rem"}}>
+    <MyContainer style={{width:"35%", padding:"4rem"}}>
+        <Header style={{fontSize:"5rem"}}>
             Let's Chat.
         </Header>
         <Form
-        style={{display:"flex", flexDirection:"column", alignItems:"center"}}
         action={FORM_ENDPOINT}
         onSubmit={handleSubmit}
         method="POST"
@@ -35,10 +35,13 @@ const Contact = () => {
         >
 
         <MyFormGroup className="mb-3" controlId="formBasicName">
-        <Form.Label style={{color:"white", marginRight:".5rem"}}>Name</Form.Label>
-            <MyFormControl 
+          <Form.Label style={{color:"white", marginRight:".5rem"}}>
+            Name:
+          </Form.Label>
+          <br/>
+          <MyFormControl 
             type="text"
-            placeholder="Your name"
+            placeholder="Name*"
             name="name"
             required
             />
@@ -46,22 +49,33 @@ const Contact = () => {
 
         <MyFormGroup className="mb-3" controlId="formBasicEmail">
             <Form.Label style={{color:"white", marginRight:".5rem"}}>
-              Email
+              Email:
             </Form.Label>
+            <br/>
             <MyFormControl 
             type="email" 
-            placeholder="Enter email"/>
+            placeholder="Email*"
+            required/>
       </MyFormGroup>
 
-      <MyFormGroup className="mb-3 pt-0">
-        <textarea
-        placeholder="Send me a message"
-        name="message"
-        required
-        />
+      <MyFormGroup className="mb-3" controlId="formBasicSubject">
+            <Form.Label style={{color:"white", marginRight:".5rem"}}>
+              Subject:
+            </Form.Label>
+            <br/>
+            <MyFormControl 
+            type="subject" 
+            placeholder="Subject*"
+            required/>
       </MyFormGroup>
 
-      <Form.Group className="mb-3 pt-0">
+      <MyFormGroup className="mb-3" controlID="formTextArea">
+        <Form.Label style={{color:"white", marginBottom:"1rem"}}>Send me a message!</Form.Label>
+        <br/>
+        <MyFormControl style={{width:"100%"}} placeholder="Message*" as="textarea" rows={5} required/>
+      </MyFormGroup>
+
+      <Form.Group className="mb-3">
         <MyButton
         type="submit"
         >
@@ -70,6 +84,7 @@ const Contact = () => {
       </Form.Group>
     </Form>
 </MyContainer>
+</div>
     )
 }
 
