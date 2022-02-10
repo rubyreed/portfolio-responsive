@@ -1,5 +1,6 @@
 import React, {useState} from "react";
-import { Container } from "react-bootstrap";
+import { Container, Form, Button } from "react-bootstrap";
+import { MyContainer, Header, MyButton, MyFormGroup, MyFormControl } from "../components/Styles.js";
 
 const FORM_ENDPOINT = "https://public.herotofu.com/v1/1c240c00-89f5-11ec-9849-fb4467695b96";
 
@@ -14,56 +15,61 @@ const Contact = () => {
   
     if (submitted) {
       return (
-        <>
-          <div className="text-2xl">Thank you!</div>
-          <div className="text-md">I'll be in touch soon.</div>
-        </>
+        <MyContainer>
+          <h1>Thank you!</h1>
+          <p>I'll be in touch soon.</p>
+        </MyContainer>
       );
     }
     return (
-    <Container>
-        <form
-      action={FORM_ENDPOINT}
-      onSubmit={handleSubmit}
-      method="POST"
-      target="_blank"
-    >
-      <div className="mb-3 pt-0">
-        <input
-          type="text"
-          placeholder="Your name"
-          name="name"
-          className="px-3 py-3 placeholder-gray-400 text-gray-600 relative bg-white bg-white rounded text-sm border-0 shadow outline-none focus:outline-none focus:ring w-full"
-          required
-        />
-      </div>
-      <div className="mb-3 pt-0">
-        <input
-          type="email"
-          placeholder="Email"
-          name="email"
-          className="px-3 py-3 placeholder-gray-400 text-gray-600 relative bg-white bg-white rounded text-sm border-0 shadow outline-none focus:outline-none focus:ring w-full"
-          required
-        />
-      </div>
-      <div className="mb-3 pt-0">
-        <textarea
-          placeholder="Your message"
-          name="message"
-          className="px-3 py-3 placeholder-gray-400 text-gray-600 relative bg-white bg-white rounded text-sm border-0 shadow outline-none focus:outline-none focus:ring w-full"
-          required
-        />
-      </div>
-      <div className="mb-3 pt-0">
-        <button
-          className="bg-blue-500 text-white active:bg-blue-600 font-bold uppercase text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
-          type="submit"
+    <MyContainer>
+        <Header>
+            Let's Chat.
+        </Header>
+        <Form
+        style={{display:"flex", flexDirection:"column", alignItems:"center"}}
+        action={FORM_ENDPOINT}
+        onSubmit={handleSubmit}
+        method="POST"
+        target="_blank"
         >
-          Send me a message.
-        </button>
-      </div>
-    </form>
-</Container>
+
+        <MyFormGroup className="mb-3" controlId="formBasicName">
+        <Form.Label style={{color:"white", marginRight:".5rem"}}>Name</Form.Label>
+            <MyFormControl 
+            type="text"
+            placeholder="Your name"
+            name="name"
+            required
+            />
+        </MyFormGroup>
+
+        <MyFormGroup className="mb-3" controlId="formBasicEmail">
+            <Form.Label style={{color:"white", marginRight:".5rem"}}>
+              Email
+            </Form.Label>
+            <MyFormControl 
+            type="email" 
+            placeholder="Enter email"/>
+      </MyFormGroup>
+
+      <MyFormGroup className="mb-3 pt-0">
+        <textarea
+        placeholder="Send me a message"
+        name="message"
+        required
+        />
+      </MyFormGroup>
+
+      <Form.Group className="mb-3 pt-0">
+        <MyButton
+        type="submit"
+        >
+          Submit
+        </MyButton>
+      </Form.Group>
+    </Form>
+</MyContainer>
     )
 }
 

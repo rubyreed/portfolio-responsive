@@ -1,6 +1,7 @@
-import { Nav, Navbar, Container } from "react-bootstrap";
+import { Nav, Container } from "react-bootstrap";
 import React from "react";
-import {useNavigate} from "react-router-dom";
+import { useNavigate } from "react-router-dom";
+import { MyNavbar, MyNavLink, MyNav } from "./Styles";
 
 const NavBar = () => {
 
@@ -12,27 +13,25 @@ const NavBar = () => {
     
 return (
     <>
-<Navbar>
-    <Container>
-        <Nav onSelect={handleSelect}>
-            <Nav.Link eventKey="/">
+    <MyNavbar>
+        <MyNav onSelect={handleSelect}>
+            <MyNavLink eventKey="/">
                 Home
-            </Nav.Link>
-            <Nav.Link eventKey="/about">
+            </MyNavLink>
+            <MyNavLink eventKey="/about">
                 About
-            </Nav.Link>
-            <Nav.Link eventKey="/skills">
+            </MyNavLink>
+            <MyNavLink eventKey="/skills">
                 Skills
-            </Nav.Link>
-            <Nav.Link eventKey="/projects">
+            </MyNavLink>
+            <MyNavLink eventKey="/projects">
                 Projects
-            </Nav.Link>
-            <Nav.Link eventKey="/contact">
+            </MyNavLink>
+            <MyNavLink eventKey="/contact">
                 Contact
-            </Nav.Link>
-        </Nav>
-    </Container>
-</Navbar>
+            </MyNavLink>
+        </MyNav>
+    </MyNavbar>
 </>
 )
 }
