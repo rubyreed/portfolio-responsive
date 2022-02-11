@@ -26,9 +26,9 @@ import language from "../images/language.png"
 
 const Skills = () => {
     return (
-        <Container style={{margin:"4rem"}}>
-            <Header style={{fontSize:"4rem"}}>Skills</Header>
-                <p style={{color:"white"}}>My skills include frontend and design as well as backend.</p>
+        <Container style={{margin:"5rem"}}>
+            <Header style={{fontSize:"5rem"}}>Skills</Header>
+                <p style={{color:"white", fontSize:"1.5rem", marginTop:"-1.5rem"}}>My skills primarily center on the Frontend and UI/UX, but also include Backend frameworks.</p>
             <Header style={{marginTop:"7rem", fontSize:"3rem"}}>Frontend</Header>
             <BigDiv>
                 <SmallDiv>

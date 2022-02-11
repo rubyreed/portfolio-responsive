@@ -70,7 +70,7 @@ const Contact = () => {
       </MyFormGroup>
 
       <MyFormGroup className="mb-3" controlID="formTextArea">
-        <Form.Label style={{color:"white"}}>Send me a message!</Form.Label>
+        <Form.Label style={{color:"white"}}>Message:</Form.Label>
         <br/>
         <MyFormControl placeholder="Message*" as="textarea" rows={5} required/>
       </MyFormGroup>

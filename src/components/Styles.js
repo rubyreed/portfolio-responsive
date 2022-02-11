@@ -1,11 +1,11 @@
 import styled from "styled-components";
 import { Container, Form, Navbar, Nav } from "react-bootstrap";
 
-export const ColorOne = "#343434"; //grey
-export const ColorTwo = "#2F3061"; //dark purple
-export const ColorThree = "#0E34A0"; //royal blue
-export const ColorFour = "#5F5980"; //grey purple
-export const ColorFive = "#DFDFDF"; //light grey/purple
+export const ColorOne = "#343434"; //jet
+export const ColorTwo = "#18FF6D"; //spring green
+export const ColorThree = "#E8F1F2"; //azure
+export const ColorFour = "#947EB0"; //purple mountain majesty
+export const ColorFive = "#DE541E"; //orange
 
 
 export const MyContainer = styled(Container)`
@@ -20,16 +20,21 @@ export const Header = styled.h1`
 `
 
 export const MyButton = styled.button`
-background-color: ${ColorFive};
-color: ${ColorTwo};
+background-color: ${ColorOne};
+color: ${ColorThree};
 padding: .8rem;
 margin: .5rem;
 margin-left: 0rem;
 border-radius: .3rem;
 box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
 outline: none;
+border-style: none;
 font-size: 1rem;
 width: 7rem;
+&:hover {
+  background-color: ${ColorThree};
+  color: ${ColorOne};
+}
 `
 
 export const MyFormGroup = styled(Form.Group)`
@@ -41,18 +46,21 @@ padding: 1rem;
 border-radius: .3rem;
 margin-top: .5rem;
 width: 95%;
+outline: none;
+border-style: none;
+box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
 `
 
 export const MyNavbar = styled(Navbar)`
-  background-color: ${ColorTwo};
+  background-color: ${ColorThree};
 `;
 
 export const MyNavLink = styled(Nav.Link)`
-color: white;
+color: black;
 text-decoration: none;
 font-size: 1.5rem;
 &:hover {
-  color: ${ColorFive}
+  color: grey;
 }
 `
 
