@@ -22,18 +22,25 @@ export const Header = styled.h1`
 export const MyButton = styled.button`
 background-color: ${ColorFive};
 color: ${ColorTwo};
-padding: .5rem;
+padding: .8rem;
 margin: .5rem;
+margin-left: 0rem;
 border-radius: .3rem;
 box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+outline: none;
+font-size: 1rem;
+width: 7rem;
 `
 
 export const MyFormGroup = styled(Form.Group)`
-margin: 1rem;
+margin-bottom: 1rem;
 `
 
 export const MyFormControl = styled(Form.Control)`
-padding: .5rem;
+padding: 1rem;
+border-radius: .3rem;
+margin-top: .5rem;
+width: 95%;
 `
 
 export const MyNavbar = styled(Navbar)`

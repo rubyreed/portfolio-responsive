@@ -35,7 +35,7 @@ const Contact = () => {
         >
 
         <MyFormGroup className="mb-3" controlId="formBasicName">
-          <Form.Label style={{color:"white", marginRight:".5rem"}}>
+          <Form.Label style={{color:"white"}}>
             Name:
           </Form.Label>
           <br/>
@@ -48,7 +48,7 @@ const Contact = () => {
         </MyFormGroup>
 
         <MyFormGroup className="mb-3" controlId="formBasicEmail">
-            <Form.Label style={{color:"white", marginRight:".5rem"}}>
+            <Form.Label style={{color:"white"}}>
               Email:
             </Form.Label>
             <br/>
@@ -59,7 +59,7 @@ const Contact = () => {
       </MyFormGroup>
 
       <MyFormGroup className="mb-3" controlId="formBasicSubject">
-            <Form.Label style={{color:"white", marginRight:".5rem"}}>
+            <Form.Label style={{color:"white"}}>
               Subject:
             </Form.Label>
             <br/>
@@ -70,9 +70,9 @@ const Contact = () => {
       </MyFormGroup>
 
       <MyFormGroup className="mb-3" controlID="formTextArea">
-        <Form.Label style={{color:"white", marginBottom:"1rem"}}>Send me a message!</Form.Label>
+        <Form.Label style={{color:"white"}}>Send me a message!</Form.Label>
         <br/>
-        <MyFormControl style={{width:"100%"}} placeholder="Message*" as="textarea" rows={5} required/>
+        <MyFormControl placeholder="Message*" as="textarea" rows={5} required/>
       </MyFormGroup>
 
       <Form.Group className="mb-3">
