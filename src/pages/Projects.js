@@ -11,19 +11,19 @@ const Projects = () => {
     <Container>
         <Header style={{fontSize:"5rem", marginLeft:"5rem", marginTop:"5rem", marginBottom:"6rem"}}>Projects</Header>
         <div style={{display:"flex", justifyContent:"flex-start", flexWrap:"wrap", margin:"5rem"}}>
-            <a href="https://vocaljournal.herokuapp.com/landing">
+            <a href="https://vocaljournal.herokuapp.com/landing" target="_blank">
                 <img className="project" src={vocal}
                 />
             </a>
-            <a href="https://kanatouswebsite.wixsite.com/extremephysiology">
+            <a href="https://kanatouswebsite.wixsite.com/extremephysiology" target="_blank">
                 <img className="project" src={kanatous}
                 />
             </a>
-            <a href="https://mchaulenterprises.wixsite.com/mchaulenterprises">
+            <a href="https://mchaulenterprises.wixsite.com/mchaulenterprises" target="_blank">
                 <img className="project" src={mchaul}
                 />
             </a>
-            <a href="https://ruby-reed.wixsite.com/rambleon">
+            <a href="https://ruby-reed.wixsite.com/rambleon" target="_blank">
                 <img className="project" src={rambleon}
                 />
             </a>

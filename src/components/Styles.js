@@ -56,11 +56,15 @@ export const MyNavbar = styled(Navbar)`
 `;
 
 export const MyNavLink = styled(Nav.Link)`
-color: black;
+color: ${ColorThree};
 text-decoration: none;
 font-size: 1.5rem;
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
 &:hover {
-  color: grey;
+  color: ${ColorOne};
 }
 `
 

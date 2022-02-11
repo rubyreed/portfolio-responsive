@@ -21,19 +21,24 @@ return (
     <MyNavbar>
         <MyNav onSelect={handleSelect}>
             <MyNavLink eventKey="/">
-                <img style={{height:"2rem"}} src={home}/>
+                <img style={{height:"2rem", marginTop:"1.6rem"}} src={home}/>
+                <p style={{fontSize:"1rem", marginTop:"-.1rem"}}>Home</p>
             </MyNavLink>
             <MyNavLink eventKey="/about">
-                <img style={{height:"2rem"}} src={about}/>
+                <img style={{height:"2rem", marginTop:"1.6rem"}} src={about}/>
+                <p style={{fontSize:"1rem", marginTop:"-.1rem"}}>About</p>
             </MyNavLink>
             <MyNavLink eventKey="/skills">
-                <img style={{height:"2rem"}} src={skills}/>
+                <img style={{height:"2rem", marginTop:"1.4rem"}} src={skills}/>
+                <p style={{fontSize:"1rem", marginTop:"-.01rem", marginLeft:".2rem"}}>Skills</p>
             </MyNavLink>
             <MyNavLink eventKey="/projects">
-            <img style={{height:"2.2rem"}} src={project}/>
+                <img style={{height:"2rem", marginTop:"1.6rem"}} src={project}/>
+                <p style={{fontSize:"1rem", marginTop:"-.1rem"}}>Projects</p>
             </MyNavLink>
             <MyNavLink eventKey="/contact">
-            <img style={{height:"2.5rem"}} src={contact}/>
+                <img style={{height:"2rem", marginTop:"1.6rem"}} src={contact}/>
+                <p style={{fontSize:"1rem", marginTop:"-.1rem"}}>Contact Me</p>
             </MyNavLink>
         </MyNav>
     </MyNavbar>
