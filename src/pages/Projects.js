@@ -10,7 +10,7 @@ const Projects = () => {
     return (
     <Container>
         <Header style={{fontSize:"4rem", marginLeft:"5rem", marginTop:"5rem", marginBottom:"6rem"}}>Projects</Header>
-        <div style={{display:"flex", justifyContent:"space-evenly", flexWrap:"wrap", margin:"6rem"}}>
+        <div style={{display:"flex", justifyContent:"flex-start", flexWrap:"wrap", margin:"6rem"}}>
             <a href="https://vocaljournal.herokuapp.com/landing">
                 <img className="project" src={vocal}
                 />
