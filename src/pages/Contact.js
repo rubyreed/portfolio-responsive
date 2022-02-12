@@ -13,14 +13,14 @@ const Contact = () => {
       }, 100);
     };
   
-    if (submitted) {
-      return (
-        <MyContainer style={{padding:"4rem",width: "20%",display:"flex",textAlign:"center", margin:"auto",marginBottom:"5rem",marginTop:"5rem",flexDirection:"column"}}>
-          <h1 style={{color:"white"}}>Thank you!</h1>
-          <p style={{color:"white"}}>I'll be in touch soon.</p>
-        </MyContainer>
-      );
-    }
+    // if (submitted) {
+    //   return (
+    //     <MyContainer style={{padding:"4rem",width: "20%",display:"flex",textAlign:"center", margin:"auto",marginBottom:"5rem",marginTop:"5rem",flexDirection:"column"}}>
+    //       <h1 style={{color:"white"}}>Thank you!</h1>
+    //       <p style={{color:"white"}}>I'll be in touch soon.</p>
+    //     </MyContainer>
+    //   );
+    // }
     return (
     <div style={{display:"flex", justifyContent:"center", marginTop:"5rem", marginBottom: "5rem"}}>
     <MyContainer style={{width:"35%", padding:"4rem"}}>
