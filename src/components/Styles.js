@@ -84,12 +84,30 @@ align-items: center;
   color: ${ColorOne};
 }
 `
+export const SmallNavLink = styled(Nav.Link)`
+color: ${ColorThree};
+text-decoration: none;
+font-size: .5rem;
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+&:hover {
+  color: ${ColorOne};
+}
+`
 
 export const MyNav = styled (Nav)`
 display: flex;
 justify-content: space-evenly;
 align-items: center !important;
 height: 5rem;
+`
+export const SmallNav = styled (Nav)`
+display: flex;
+justify-content: space-evenly;
+align-items: center !important;
+height: 3rem;
 `
 
 export const MyFooter = styled(Navbar)`
