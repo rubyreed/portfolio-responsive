@@ -97,6 +97,11 @@ export const MyFooter = styled(Navbar)`
   height: 4rem;
 `;
 
+export const SmallFooter = styled(Navbar)`
+  background-color: ${ColorFour};
+  height: 2rem;
+`;
+
 export const BigDiv = styled.div`
 display: flex;
 justify-content: flex-start;
