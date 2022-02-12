@@ -18,7 +18,11 @@ const NavBar = () => {
     
 return (
     <>
-    <MyNavbar>
+    <MyNavbar collapseOnSelect expand="lg">
+        <Container>
+        {/* <MyNavbar.Brand>My Portfolio</MyNavbar.Brand>
+        <MyNavbar.Toggle aria-controls="responsive-navbar-nav" />
+        <MyNavbar.Collapse id="responsive-navbar-nav"> */}
         <MyNav onSelect={handleSelect}>
             <MyNavLink eventKey="/">
                 <img style={{height:"2rem", marginTop:"1.6rem"}} src={home}/>
@@ -41,6 +45,8 @@ return (
                 <p style={{fontSize:"1rem", marginTop:"-.1rem"}}>Contact Me</p>
             </MyNavLink>
         </MyNav>
+        {/* </MyNavbar.Collapse> */}
+        </Container>
     </MyNavbar>
 </>
 )
