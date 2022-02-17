@@ -21,7 +21,7 @@ const NavBar = () => {
     
 return (
     <div>
-    {/* visible when window less than 500px, aka desktop */}
+    {/* visible when window greater than 500px, aka desktop */}
     {width > 500 && (
     <MyNavbar>
         <Container>
