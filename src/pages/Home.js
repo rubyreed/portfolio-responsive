@@ -19,8 +19,8 @@ const {width} = useWindowSize();
         {width < 500 && (
         <Container>
                 <div style={{display:"flex", justifyContent:"flex-start", flexWrap:"wrap", flexDirection: "column", width:"100%"}}>
-                <Header style={{color:"ButtonFace", fontSize:"2rem", marginLeft:"3rem", marginTop:"3rem"}}>Hi, I'm Ruby.<br/>Web Developer<br/>& <br/>UI/UX Designer.</Header>
-                <p style={{color:"white", fontSize:"1rem", marginLeft:"3rem", marginTop:".2rem", marginBottom:"2rem"}}>I focus on the little things.</p>
+                <Header style={{color:`${ColorFour}`, fontSize:"2rem", marginLeft:"3rem", marginTop:"3rem"}}>Hi, I'm Ruby.<br/>Web Developer<br/>& <br/>UI/UX Designer.</Header>
+                <p style={{color:`${ColorFour}`, fontSize:"1rem", marginLeft:"3rem", marginTop:".2rem", marginBottom:"2rem"}}>I focus on the little things.</p>
                 </div>
           </Container>  
         )}

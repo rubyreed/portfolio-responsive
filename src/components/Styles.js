@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { Container, Form, Navbar, Nav } from "react-bootstrap";
+import { Container, Form, Navbar, Nav, NavDropdown } from "react-bootstrap";
 
 export const ColorOne = "#343434"; //jet
 export const ColorTwo = "#18FF6D"; //spring green
@@ -40,15 +40,15 @@ width: 7rem;
 export const LightButton = styled.button`
 background-color: ${ColorThree};
 color: ${ColorOne};
-padding: .8rem;
-margin: .5rem;
+padding: .5rem;
+margin: .2rem;
 margin-left: 0rem;
 border-radius: .3rem;
 box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
 outline: none;
 border-style: none;
-font-size: 1rem;
-width: 7rem;
+font-size: .7rem;
+width: 5rem;
 &:hover {
   background-color: #BFBFBF;
 }
@@ -95,6 +95,14 @@ align-items: center;
 &:hover {
   color: ${ColorOne};
 }
+`
+
+export const MyItem = styled(NavDropdown.Item)`
+text-decoration: none;
+color: ${ColorOne};
+display: flex;
+justify-content: flex-start;
+padding: .2rem;
 `
 
 export const MyNav = styled (Nav)`
