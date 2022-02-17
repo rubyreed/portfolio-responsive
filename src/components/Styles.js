@@ -35,6 +35,10 @@ width: 7rem;
   background-color: ${ColorThree};
   color: ${ColorOne};
 }
+&:active {
+  background-color: ${ColorThree};
+  color: ${ColorOne};
+}
 `
 
 export const LightButton = styled.button`
@@ -50,6 +54,9 @@ border-style: none;
 font-size: .7rem;
 width: 5rem;
 &:hover {
+  background-color: #BFBFBF;
+}
+&:active {
   background-color: #BFBFBF;
 }
 `
@@ -83,6 +90,9 @@ align-items: center;
 &:hover {
   color: ${ColorOne};
 }
+&:active {
+  color: ${ColorOne};
+}
 `
 export const SmallNavLink = styled(Nav.Link)`
 color: ${ColorThree};
@@ -93,6 +103,9 @@ justify-content: center;
 flex-direction: column;
 align-items: center;
 &:hover {
+  color: ${ColorOne};
+}
+&:active {
   color: ${ColorOne};
 }
 `
@@ -143,6 +156,9 @@ export const ResumeA = styled.a`
 color: ${ColorOne};
 text-decoration: none;
 &:hover{
+  color: ${ColorThree}
+};
+&:active{
   color: ${ColorThree}
 };
 `
