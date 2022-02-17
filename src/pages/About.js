@@ -20,7 +20,7 @@ const About = () => {
 
     return (
         <div>
-    {/* visible when window less than 500px, aka desktop */}
+    {/* visible when window greater than 500px, aka desktop */}
     {width > 500 && (
         <Container style={{display:"flex", justifyContent:"center", height: "100%"}}>
             <div style={{display: "flex", flexDirection: "column", alignItems: "center", marginRight: "4rem", maxWidth:"60rem", marginBottom:"5rem"}}>
