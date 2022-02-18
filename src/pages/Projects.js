@@ -39,23 +39,24 @@ const Projects = () => {
     )}
     {/* visible when less than than 500px, aka mobile */}
     {width < 500 && (
-    <Container>
-    <Header style={{fontSize:"3rem", marginLeft:"3rem", marginTop:"3rem", marginBottom:"4rem"}}>Projects</Header>
-    <div style={{display:"flex", justifyContent:"flex-start", flexWrap:"wrap", margin:"3rem"}}>
+    <Container style={{display:"flex", justifyContent:"center", flexDirection:"column"}}>
+    <Header style={{fontSize:"3rem", margin:"auto", paddingTop:"3rem", marginBottom:"-3rem"}}>Projects</Header>
+    <br/>
+    <div style={{display:"flex", justifyContent:"center", flexWrap:"wrap", margin:"3rem"}}>
         <a href="https://vocaljournal.herokuapp.com/landing" target="_blank">
-            <img className="project" src={vocal}
+            <img className="projectsmall" src={vocal}
             />
         </a>
         <a href="https://kanatouswebsite.wixsite.com/extremephysiology" target="_blank">
-            <img className="project" src={kanatous}
+            <img className="projectsmall" src={kanatous}
         />
         </a>
         <a href="https://mchaulenterprises.wixsite.com/mchaulenterprises" target="_blank">
-            <img className="project" src={mchaul}
+            <img className="projectsmall" src={mchaul}
             />
         </a>
         <a href="https://ruby-reed.wixsite.com/rambleon" target="_blank">
-            <img className="project" src={rambleon}
+            <img className="projectsmall" src={rambleon}
             />
         </a>
     </div>

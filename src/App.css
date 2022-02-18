@@ -17,3 +17,19 @@
   -moz-box-shadow: 0px 0px 15px 5px rgb(255, 255, 255);
   box-shadow: 0px 0px 15px 5px rgb(255, 255, 255);
 }
+
+.projectsmall {
+  border-radius: 0.2rem;
+  height: 9rem;
+  width: 15rem;
+  margin: 1rem;
+  margin-bottom: 2rem;
+  object-fit: cover;
+}
+
+.projectsmall:hover,
+.projectsmall:active {
+  -webkit-box-shadow: 0px 0px 15px 5px rgb(255, 255, 255);
+  -moz-box-shadow: 0px 0px 15px 5px rgb(255, 255, 255);
+  box-shadow: 0px 0px 15px 5px rgb(255, 255, 255);
+}

@@ -1,7 +1,7 @@
 import { Nav, Container, NavDropdown, Dropdown, Navbar } from "react-bootstrap";
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import { MyNavbar, MyNavLink, MyNav, SmallNavLink, MyItem, ColorFour, ColorThree } from "./Styles";
+import { MyNavbar, MyNavLink, MyNav, SmallNavLink, MyItem, ColorFour, ColorThree, SmallNav } from "./Styles";
 import home from "../images/home.png"
 import about from "../images/about.png"
 import skills from "../images/skills.png"
@@ -52,7 +52,35 @@ return (
 
 {/* visible when less than than 500px, aka mobile */}
 {width < 500 && (
-<MyNavbar>
+    <MyNavbar>
+    <Container>
+    <SmallNav onSelect={handleSelect}>
+        <SmallNavLink eventKey="/">
+            <img style={{height:"1.3rem"}} src={home}/>
+        </SmallNavLink>
+        <SmallNavLink eventKey="/about">
+            <img style={{height:"1.3rem"}} src={about}/>
+        </SmallNavLink>
+        <SmallNavLink eventKey="/skills">
+            <img style={{height:"1.3rem"}} src={skills}/>
+        </SmallNavLink>
+        <SmallNavLink eventKey="/projects">
+            <img style={{height:"1.3rem"}} src={project}/>
+        </SmallNavLink>
+        <SmallNavLink eventKey="/contact">
+            <img style={{height:"1.3rem"}} src={contact}/>
+        </SmallNavLink>
+    </SmallNav>
+    </Container>
+</MyNavbar>
+)}
+</div>
+)
+}
+
+export default NavBar;
+
+{/* <MyNavbar>
  <Container>
         <Dropdown>
             <div style={{display:"flex", justifyContent:"flex-start"}}>
@@ -86,11 +114,4 @@ return (
         </Dropdown.Menu>
         </Dropdown>
     </Container> 
-</MyNavbar>
-)}
-</div>
-)
-}
-
-export default NavBar;
-
+</MyNavbar> */}

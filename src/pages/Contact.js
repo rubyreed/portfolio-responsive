@@ -94,7 +94,7 @@ const Contact = () => {
     {/* visible when less than than 500px, aka mobile */}
     {width < 500 && (
           <div style={{display:"flex", justifyContent:"center", marginTop:"3rem", marginBottom: "3rem"}}>
-          <MyContainer style={{width:"35%", padding:"4rem"}}>
+          <MyContainer style={{width:"35%", padding:"4rem", display:"flex", justifyContent:"center", flexDirection:"column"}}>
               <Header style={{fontSize:"3rem"}}>
                   Let's Chat.
               </Header>
@@ -105,7 +105,7 @@ const Contact = () => {
               target="_blank"
               >
       
-              <MyFormGroup className="mb-3" controlId="formBasicName">
+              <MyFormGroup controlId="formBasicName">
                 <Form.Label style={{color:"white"}}>
                   Name:
                 </Form.Label>
@@ -118,7 +118,7 @@ const Contact = () => {
                   />
               </MyFormGroup>
       
-              <MyFormGroup className="mb-3" controlId="formBasicEmail">
+              <MyFormGroup controlId="formBasicEmail">
                   <Form.Label style={{color:"white"}}>
                     Email:
                   </Form.Label>
@@ -129,7 +129,7 @@ const Contact = () => {
                   required/>
             </MyFormGroup>
       
-            <MyFormGroup className="mb-3" controlId="formBasicSubject">
+            <MyFormGroup controlId="formBasicSubject">
                   <Form.Label style={{color:"white"}}>
                     Subject:
                   </Form.Label>
@@ -140,13 +140,13 @@ const Contact = () => {
                   required/>
             </MyFormGroup>
       
-            <MyFormGroup className="mb-3" controlID="formTextArea">
+            <MyFormGroup controlID="formTextArea">
               <Form.Label style={{color:"white"}}>Message:</Form.Label>
               <br/>
               <MyFormControl placeholder="Message*" as="textarea" rows={5} required/>
             </MyFormGroup>
       
-            <Form.Group className="mb-3">
+            <Form.Group style={{display:"flex", justifyContent:"center"}}>
               <MyButton
               type="submit"
               >
