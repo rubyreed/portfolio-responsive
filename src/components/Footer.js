@@ -5,6 +5,7 @@ import github from "../images/github.ico"
 import linkedinwhite from "../images/linkedinwhite.png"
 import githubwhite from "../images/githubwhite.png"
 import useWindowSize from "../hooks/useWindowSize";
+import { Container } from "react-bootstrap";
 
 const Footer = () => {
     const {width} = useWindowSize();
