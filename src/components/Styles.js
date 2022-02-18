@@ -141,17 +141,32 @@ export const SmallFooter = styled(Navbar)`
   height: 2rem;
 `;
 
-export const BigDiv = styled.div`
+export const MyBigDiv = styled.div`
 display: flex;
 justify-content: flex-start;
 `
 
-export const SmallDiv = styled.div`
+export const MySmallDiv = styled.div`
 display: flex;
 flex-direction: column;
 align-items: center;
 margin-right: 4rem;
 `
+
+export const BigDiv = styled.div`
+display: flex;
+flex-wrap:wrap;
+justify-content: flex-start;
+`
+
+export const SmallDiv = styled.div`
+display: flex;
+flex-wrap: wrap;
+flex-direction: column;
+align-items: center;
+margin-right: 2rem;
+`
+
 export const ResumeA = styled.a`
 color: ${ColorOne};
 text-decoration: none;
