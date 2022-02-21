@@ -80,8 +80,14 @@
   .contactcontainer {
     width: 73%;
     margin: 2rem;
-    padding: 2rem;
+    padding: 3rem;
     border-radius: 0.5rem;
+  }
+  .contactheader {
+    margin: auto;
+    margin-bottom: 1rem;
+    font-size: 12vw;
+    white-space: nowrap;
   }
   /* in footer */
   .footerfont {
@@ -180,10 +186,15 @@
   /* in contact */
   .contactcontainer {
     width: 65%;
-    padding: 4rem;
+    padding: 3rem;
     margin: 2rem;
-    padding: 2rem;
     border-radius: 0.5rem;
+  }
+  .contactheader {
+    margin: auto;
+    margin-bottom: 1rem;
+    font-size: 12vw;
+    white-space: nowrap;
   }
   /* in footer */
   .footerfont {
@@ -281,10 +292,15 @@
   /* in contact */
   .contactcontainer {
     width: 58%;
-    padding: 4rem;
+    padding: 3rem;
     margin: 2rem;
-    padding: 2rem;
     border-radius: 0.5rem;
+  }
+  .contactheader {
+    font-size: 10vw;
+    white-space: nowrap;
+    margin: auto;
+    margin-bottom: 1rem;
   }
   /* in footer */
   .footerfont {
@@ -382,10 +398,15 @@
   /* in contact */
   .contactcontainer {
     width: 52%;
-    padding: 4rem;
+    padding: 3rem;
     margin: 2rem;
-    padding: 2rem;
     border-radius: 0.5rem;
+  }
+  .contactheader {
+    margin: auto;
+    margin-bottom: 1rem;
+    font-size: 9vw;
+    white-space: nowrap;
   }
   /* in footer */
   .footerfont {
@@ -483,10 +504,15 @@
   /* in contact */
   .contactcontainer {
     width: 45%;
-    padding: 4rem;
-    margin: 2rem;
-    padding: 2rem;
+    margin: 2vw;
+    padding: 3vw;
     border-radius: 0.5rem;
+  }
+  .contactheader {
+    margin: auto;
+    margin-bottom: 1rem;
+    font-size: 6vw;
+    white-space: nowrap;
   }
   /* in footer */
   .footerfont {

@@ -35,7 +35,7 @@ return (
             </MyNavLink>
             <MyNavLink eventKey="/projects">
                 <img style={{height:"2rem", marginTop:"1.6rem"}} src={project}/>
-                <p style={{fontSize:"1rem", marginTop:"-.1rem"}}>Projects</p>
+                <p style={{fontSize:"1rem", marginTop:"-.1rem"}}>My Work</p>
             </MyNavLink>
             <MyNavLink eventKey="/contact">
                 <img style={{height:"2rem", marginTop:"1.6rem"}} src={contact}/>
