@@ -9,10 +9,10 @@ import rambleon from "../images/rambleon.png"
 const Projects = () => {
 
     return (
-        <div>
+<div>
     <Container>
-        <Header style={{fontSize:"5rem", marginLeft:"5rem", marginTop:"5rem", marginBottom:"6rem"}}>Projects</Header>
-        <div style={{display:"flex", justifyContent:"flex-start", flexWrap:"wrap", margin:"5rem"}}>
+        <Header className="projhead">Projects</Header>
+        <div className="projdiv">
             <a href="https://vocaljournal.herokuapp.com/landing" target="_blank">
                 <img className="project" src={vocal}
                 />

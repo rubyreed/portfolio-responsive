@@ -8,6 +8,46 @@ export const ColorFour = "#947EB0"; //purple mountain majesty
 export const ColorFive = "#DE541E"; //orange
 
 
+//in Multiple
+export const Header = styled.h1`
+  color: white;
+`
+
+//in About
+export const LightButton = styled.button`
+background-color: ${ColorThree};
+color: ${ColorOne};
+padding: .5rem;
+margin: .2rem;
+margin-left: 0rem;
+border-radius: .3rem;
+box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+outline: none;
+border-style: none;
+font-size: .7rem;
+width: 5rem;
+&:hover {
+  background-color: #BFBFBF;
+}
+&:active {
+  background-color: #BFBFBF;
+}
+`
+
+//in Skills
+export const MyBigDiv = styled.div`
+display: flex;
+justify-content: flex-start;
+`
+
+export const MySmallDiv = styled.div`
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-right: 4rem;
+`
+
+//in Contact
 export const MyContainer = styled(Container)`
   background-color: ${ColorFour};
   margin: 2rem;
@@ -15,8 +55,18 @@ export const MyContainer = styled(Container)`
   border-radius: 0.5rem;
 `;
 
-export const Header = styled.h1`
-  color: white;
+export const MyFormGroup = styled(Form.Group)`
+margin-bottom: 1rem;
+`
+
+export const MyFormControl = styled(Form.Control)`
+padding: 1rem;
+border-radius: .3rem;
+margin-top: .5rem;
+width: 95%;
+outline: none;
+border-style: none;
+box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
 `
 
 export const MyButton = styled.button`
@@ -41,40 +91,7 @@ width: 7rem;
 }
 `
 
-export const LightButton = styled.button`
-background-color: ${ColorThree};
-color: ${ColorOne};
-padding: .5rem;
-margin: .2rem;
-margin-left: 0rem;
-border-radius: .3rem;
-box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
-outline: none;
-border-style: none;
-font-size: .7rem;
-width: 5rem;
-&:hover {
-  background-color: #BFBFBF;
-}
-&:active {
-  background-color: #BFBFBF;
-}
-`
-
-export const MyFormGroup = styled(Form.Group)`
-margin-bottom: 1rem;
-`
-
-export const MyFormControl = styled(Form.Control)`
-padding: 1rem;
-border-radius: .3rem;
-margin-top: .5rem;
-width: 95%;
-outline: none;
-border-style: none;
-box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
-`
-
+//in Navbar
 export const MyNavbar = styled(Navbar)`
   background-color: ${ColorThree};
 `;
@@ -94,29 +111,6 @@ align-items: center;
   color: ${ColorOne};
 }
 `
-export const SmallNavLink = styled(Nav.Link)`
-color: ${ColorThree};
-text-decoration: none;
-font-size: .5rem;
-display: flex;
-justify-content: center;
-flex-direction: column;
-align-items: center;
-&:hover {
-  color: ${ColorOne};
-}
-&:active {
-  color: ${ColorOne};
-}
-`
-
-export const MyItem = styled(NavDropdown.Item)`
-text-decoration: none;
-color: ${ColorOne};
-display: flex;
-justify-content: flex-start;
-padding: .2rem;
-`
 
 export const MyNav = styled (Nav)`
 display: flex;
@@ -124,48 +118,12 @@ justify-content: space-evenly;
 align-items: center !important;
 height: 5rem;
 `
-export const SmallNav = styled (Nav)`
-display: flex;
-justify-content: space-evenly;
-align-items: center !important;
-height: 3rem;
-`
 
+//in Footer
 export const MyFooter = styled(Navbar)`
   background-color: ${ColorFour};
   height: 4rem;
 `;
-
-export const SmallFooter = styled(Navbar)`
-  background-color: ${ColorFour};
-  height: 2rem;
-`;
-
-export const MyBigDiv = styled.div`
-display: flex;
-justify-content: flex-start;
-`
-
-export const MySmallDiv = styled.div`
-display: flex;
-flex-direction: column;
-align-items: center;
-margin-right: 4rem;
-`
-
-export const BigDiv = styled.div`
-display: flex;
-flex-wrap:wrap;
-justify-content: flex-start;
-`
-
-export const SmallDiv = styled.div`
-display: flex;
-flex-wrap: wrap;
-flex-direction: column;
-align-items: center;
-margin-right: 2rem;
-`
 
 export const ResumeA = styled.a`
 color: ${ColorOne};

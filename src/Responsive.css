@@ -1,19 +1,137 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+  /* in about */
+  .tagline {
+    text-align: center;
+    color: white;
+    font-size: 2.5rem;
+  }
+  .bio {
+    color: white;
+    font-size: 1.5rem;
+  }
+  /* in projects */
+  .project {
+    border-radius: 0.2rem;
+    height: 9rem;
+    width: 15rem;
+    margin: 1rem;
+    margin-bottom: 2rem;
+    object-fit: cover;
+  }
+  .projdiv {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 5vw;
+  }
+  .projhead {
+    display: flex;
+    justify-content: center;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
+  /* in about */
+  .tagline {
+    text-align: center;
+    color: white;
+    font-size: 2.5rem;
+  }
+  .bio {
+    color: white;
+    font-size: 1.5rem;
+  }
+  /* in projects */
+  .projdiv {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 5vw;
+  }
+  .projhead {
+    font-size: 5vw;
+    margin-left: 5vw;
+    margin-top: 5vw;
+    margin-bottom: 6vw;
+  }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
+  /* in about */
+  .tagline {
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+  }
+  .bio {
+    color: white;
+    font-size: 2rem;
+  }
+  .projdiv {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 5vw;
+  }
+  .projhead {
+    font-size: 5vw;
+    margin-left: 5vw;
+    margin-top: 5vw;
+    margin-bottom: 6vw;
+  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
+  /* in about */
+  .tagline {
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+  }
+  .bio {
+    color: white;
+    font-size: 2rem;
+  }
+  .projdiv {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin: 5vw;
+  }
+  .projhead {
+    font-size: 5vw;
+    margin-left: 5vw;
+    margin-top: 5vw;
+    margin-bottom: 6vw;
+  }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
+  /* in about */
+  .tagline {
+    text-align: center;
+    color: white;
+    font-size: 3.5rem;
+  }
+  .bio {
+    color: white;
+    font-size: 2.5rem;
+  }
+  .projdiv {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin: 5vw;
+  }
+  .projhead {
+    font-size: 5vw;
+    margin-left: 5vw;
+    margin-top: 5vw;
+    margin-bottom: 6vw;
+  }
 }
