@@ -13,11 +13,25 @@
   /* in projects */
   .project {
     border-radius: 0.2rem;
-    height: 9rem;
-    width: 15rem;
-    margin: 1rem;
+    height: 14rem;
+    width: 20rem;
+    margin-right: 2rem;
     margin-bottom: 2rem;
     object-fit: cover;
+  }
+
+  .project:hover,
+  .project:active {
+    -webkit-box-shadow: 0px 0px 15px 5px rgb(255, 255, 255);
+    -moz-box-shadow: 0px 0px 15px 5px rgb(255, 255, 255);
+    box-shadow: 0px 0px 15px 5px rgb(255, 255, 255);
+  }
+
+  .projectsmall:hover,
+  .projectsmall:active {
+    -webkit-box-shadow: 0px 0px 15px 5px rgb(255, 255, 255);
+    -moz-box-shadow: 0px 0px 15px 5px rgb(255, 255, 255);
+    box-shadow: 0px 0px 15px 5px rgb(255, 255, 255);
   }
   .projdiv {
     display: flex;
@@ -28,6 +42,9 @@
   .projhead {
     display: flex;
     justify-content: center;
+    margin-top: 10vw;
+    margin-bottom: 11vw;
+    font-size: 7vw;
   }
   /* in skills */
   .skillmain {
@@ -62,6 +79,29 @@
     font-size: 1.5rem;
   }
   /* in projects */
+  /* in project */
+  .project {
+    border-radius: 0.2rem;
+    height: 14rem;
+    width: 20rem;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+    object-fit: cover;
+  }
+
+  .project:hover,
+  .project:active {
+    -webkit-box-shadow: 0px 0px 15px 5px rgb(255, 255, 255);
+    -moz-box-shadow: 0px 0px 15px 5px rgb(255, 255, 255);
+    box-shadow: 0px 0px 15px 5px rgb(255, 255, 255);
+  }
+
+  .projectsmall:hover,
+  .projectsmall:active {
+    -webkit-box-shadow: 0px 0px 15px 5px rgb(255, 255, 255);
+    -moz-box-shadow: 0px 0px 15px 5px rgb(255, 255, 255);
+    box-shadow: 0px 0px 15px 5px rgb(255, 255, 255);
+  }
   .projdiv {
     display: flex;
     justify-content: center;
@@ -69,10 +109,10 @@
     margin: 5vw;
   }
   .projhead {
-    font-size: 5vw;
-    margin-left: 5vw;
-    margin-top: 5vw;
-    margin-bottom: 6vw;
+    font-size: 7vw;
+    margin-left: 10vw;
+    margin-top: 10vw;
+    margin-bottom: 11vw;
   }
   /* in skills */
   .skillmain {
@@ -106,6 +146,29 @@
     color: white;
     font-size: 2rem;
   }
+  /* in projects */
+  .project {
+    border-radius: 0.2rem;
+    height: 16rem;
+    width: 22rem;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+    object-fit: cover;
+  }
+
+  .project:hover,
+  .project:active {
+    -webkit-box-shadow: 0px 0px 15px 5px rgb(255, 255, 255);
+    -moz-box-shadow: 0px 0px 15px 5px rgb(255, 255, 255);
+    box-shadow: 0px 0px 15px 5px rgb(255, 255, 255);
+  }
+
+  .projectsmall:hover,
+  .projectsmall:active {
+    -webkit-box-shadow: 0px 0px 15px 5px rgb(255, 255, 255);
+    -moz-box-shadow: 0px 0px 15px 5px rgb(255, 255, 255);
+    box-shadow: 0px 0px 15px 5px rgb(255, 255, 255);
+  }
   .projdiv {
     display: flex;
     justify-content: center;
@@ -113,10 +176,10 @@
     margin: 5vw;
   }
   .projhead {
-    font-size: 5vw;
-    margin-left: 5vw;
-    margin-top: 5vw;
-    margin-bottom: 6vw;
+    font-size: 6vw;
+    margin-left: 10vw;
+    margin-top: 10vw;
+    margin-bottom: 11vw;
   }
   /* in skills */
   .skillmain {
@@ -150,6 +213,29 @@
     color: white;
     font-size: 2rem;
   }
+  /* in projects */
+  .project {
+    border-radius: 0.2rem;
+    height: 16rem;
+    width: 22rem;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+    object-fit: cover;
+  }
+
+  .project:hover,
+  .project:active {
+    -webkit-box-shadow: 0px 0px 15px 5px rgb(255, 255, 255);
+    -moz-box-shadow: 0px 0px 15px 5px rgb(255, 255, 255);
+    box-shadow: 0px 0px 15px 5px rgb(255, 255, 255);
+  }
+
+  .projectsmall:hover,
+  .projectsmall:active {
+    -webkit-box-shadow: 0px 0px 15px 5px rgb(255, 255, 255);
+    -moz-box-shadow: 0px 0px 15px 5px rgb(255, 255, 255);
+    box-shadow: 0px 0px 15px 5px rgb(255, 255, 255);
+  }
   .projdiv {
     display: flex;
     justify-content: flex-start;
@@ -157,10 +243,10 @@
     margin: 5vw;
   }
   .projhead {
-    font-size: 5vw;
-    margin-left: 5vw;
-    margin-top: 5vw;
-    margin-bottom: 6vw;
+    font-size: 6vw;
+    margin-left: 10vw;
+    margin-top: 10vw;
+    margin-bottom: 11vw;
   }
   /* in skills */
   .skillmain {
@@ -194,6 +280,29 @@
     color: white;
     font-size: 2.5rem;
   }
+  /* in projects */
+  .project {
+    border-radius: 0.2rem;
+    height: 20rem;
+    width: 26rem;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+    object-fit: cover;
+  }
+
+  .project:hover,
+  .project:active {
+    -webkit-box-shadow: 0px 0px 15px 5px rgb(255, 255, 255);
+    -moz-box-shadow: 0px 0px 15px 5px rgb(255, 255, 255);
+    box-shadow: 0px 0px 15px 5px rgb(255, 255, 255);
+  }
+
+  .projectsmall:hover,
+  .projectsmall:active {
+    -webkit-box-shadow: 0px 0px 15px 5px rgb(255, 255, 255);
+    -moz-box-shadow: 0px 0px 15px 5px rgb(255, 255, 255);
+    box-shadow: 0px 0px 15px 5px rgb(255, 255, 255);
+  }
   .projdiv {
     display: flex;
     justify-content: flex-start;
@@ -202,9 +311,9 @@
   }
   .projhead {
     font-size: 5vw;
-    margin-left: 5vw;
-    margin-top: 5vw;
-    margin-bottom: 6vw;
+    margin-left: 10vw;
+    margin-top: 10vw;
+    margin-bottom: 11vw;
   }
   /* in skills */
   .skillmain {
