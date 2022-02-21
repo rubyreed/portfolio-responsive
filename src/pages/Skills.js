@@ -26,103 +26,103 @@ import language from "../images/language.png"
 
 const Skills = () => {
     return (
-        <Container style={{margin:"5rem"}}>
-            <Header style={{fontSize:"5rem"}}>Skills</Header>
-                <p style={{color:"white", fontSize:"1.5rem", marginTop:"-1.5rem"}}>My skills primarily center on the Frontend and UI/UX, but also include Backend frameworks.</p>
-            <Header style={{marginTop:"7rem", fontSize:"3rem"}}>Frontend</Header>
+        <Container style={{margin:"5vw"}}>
+            <Header className="skillmain">Skills</Header>
+                <p className="skillbio">My skills primarily center on the Frontend and UI/UX, but also include Backend frameworks.</p>
+            <Header className="skillhead">Frontend</Header>
             <MyBigDiv>
                 <MySmallDiv>
-                    <p style={{color:"white"}}>HTML</p>
-                    <img src={html} style={{height:"7rem"}}/>
+                    <p className="skilltitle">HTML</p>
+                    <img src={html} style={{height:"7vw"}}/>
                 </MySmallDiv>
                 <MySmallDiv>
-                    <p style={{color:"white"}}>CSS</p>
-                    <img src={css} style={{height:"7rem"}}/>
+                    <p className="skilltitle">CSS</p>
+                    <img src={css} style={{height:"7vw"}}/>
                 </MySmallDiv>
                 <MySmallDiv>
-                    <p style={{color:"white"}}>JavaScript</p>
-                    <img src={js} style={{height:"7rem"}}/>
+                    <p className="skilltitle">JavaScript</p>
+                    <img src={js} style={{height:"7vw"}}/>
                 </MySmallDiv>
                 <MySmallDiv>
-                    <p style={{color:"white"}}>React</p>
-                    <img src={react} style={{height:"7rem"}}/>
+                    <p className="skilltitle">React</p>
+                    <img src={react} style={{height:"7vw"}}/>
                 </MySmallDiv>
                 <MySmallDiv>
-                    <p style={{color:"white"}}>React Router</p>
-                    <img src={react_router} style={{height:"7rem"}}/>
+                    <p className="skilltitle">React Router</p>
+                    <img src={react_router} style={{height:"7vw"}}/>
                 </MySmallDiv>
                 <MySmallDiv>
-                    <p style={{color:"white"}}>Styled-Components</p>
-                    <img src={styled_components} style={{height:"7rem"}}/>
+                    <p className="skilltitle">Styled-Components</p>
+                    <img src={styled_components} style={{height:"7vw"}}/>
                 </MySmallDiv>
                 <MySmallDiv>
-                    <p style={{color:"white"}}>React-Bootstrap</p>
-                    <img src={bootstrap} style={{height:"7rem"}}/>
+                    <p className="skilltitle">React-Bootstrap</p>
+                    <img src={bootstrap} style={{height:"7vw"}}/>
                 </MySmallDiv>
             </MyBigDiv>
-            <Header style={{marginTop:"7rem", fontSize:"3rem"}}>Design</Header>
+            <Header className="skillhead">Design</Header>
             <MyBigDiv>
                 <MySmallDiv>
-                    <p style={{color:"white"}}>Photoshop</p>
-                    <img src={photoshop} style={{height:"7rem"}}/>
+                    <p className="skilltitle">Photoshop</p>
+                    <img src={photoshop} style={{height:"7vw"}}/>
                 </MySmallDiv>
                 <MySmallDiv>
-                    <p style={{color:"white"}}>Figma</p>
-                    <img src={figma} style={{height:"7rem"}}/>
+                    <p className="skilltitle">Figma</p>
+                    <img src={figma} style={{height:"7vw"}}/>
                 </MySmallDiv>
                 <MySmallDiv>
-                    <p style={{color:"white"}}>Procreate</p>
-                    <img src={procreate} style={{height:"7rem"}}/>
+                    <p className="skilltitle">Procreate</p>
+                    <img src={procreate} style={{height:"7vw"}}/>
                 </MySmallDiv>
                 <MySmallDiv>
-                    <p style={{color:"white"}}>Wix</p>
-                    <img src={wix} style={{height:"7rem"}}/>
+                    <p className="skilltitle">Wix</p>
+                    <img src={wix} style={{height:"7vw"}}/>
                 </MySmallDiv>
                 <MySmallDiv>
-                    <p style={{color:"white"}}>Wordpress</p>
-                    <img src={wordpress} style={{height:"7rem"}}/>
+                    <p className="skilltitle">Wordpress</p>
+                    <img src={wordpress} style={{height:"7vw"}}/>
                 </MySmallDiv>
             </MyBigDiv>
-            <Header style={{marginTop:"7rem", fontSize:"3rem"}}>Backend</Header>
+            <Header className="skillhead">Backend</Header>
             <MyBigDiv>
                 <MySmallDiv>
-                    <p style={{color:"white"}}>Ruby</p>
-                    <img src={ruby} style={{height:"7rem"}}/>
+                    <p className="skilltitle">Ruby</p>
+                    <img src={ruby} style={{height:"7vw"}}/>
                 </MySmallDiv>
                 <MySmallDiv>
-                    <p style={{color:"white"}}>Rails</p>
-                    <img src={rails} style={{height:"7rem"}}/>
+                    <p className="skilltitle">Rails</p>
+                    <img src={rails} style={{height:"7vw"}}/>
                 </MySmallDiv>
                 <MySmallDiv>
-                    <p style={{color:"white"}}>PostgreSQL</p>
-                    <img src={postgresql} style={{height:"7rem"}}/>
+                    <p className="skilltitle">PostgreSQL</p>
+                    <img src={postgresql} style={{height:"7vw"}}/>
                 </MySmallDiv>
             </MyBigDiv>
-            <Header style={{marginTop:"7rem", fontSize:"3rem"}}>Other</Header>
+            <Header className="skillhead">Other</Header>
             <MyBigDiv>
                 <MySmallDiv>
-                    <p style={{color:"white"}}>GitHub</p>
-                    <img src={github} style={{height:"7rem"}}/>
+                    <p className="skilltitle">GitHub</p>
+                    <img src={github} style={{height:"7vw"}}/>
                 </MySmallDiv>
                 <MySmallDiv>
-                    <p style={{color:"white"}}>Mac OS</p>
-                    <img src={apple} style={{height:"7rem"}}/>
+                    <p className="skilltitle">Mac OS</p>
+                    <img src={apple} style={{height:"7vw"}}/>
                 </MySmallDiv>
                 <MySmallDiv>
-                    <p style={{color:"white"}}>VSCode</p>
-                    <img src={vscode} style={{height:"7rem"}}/>
+                    <p className="skilltitle">VSCode</p>
+                    <img src={vscode} style={{height:"7vw"}}/>
                 </MySmallDiv>
                 <MySmallDiv>
-                    <p style={{color:"white"}}>Photography</p>
-                    <img src={camera} style={{height:"7rem"}}/>
+                    <p className="skilltitle">Photography</p>
+                    <img src={camera} style={{height:"7vw"}}/>
                 </MySmallDiv>
                 <MySmallDiv>
-                    <p style={{color:"white"}}>Logo Design</p>
-                    <img src={design} style={{height:"7rem"}}/>
+                    <p className="skilltitle">Logo Design</p>
+                    <img src={design} style={{height:"7vw"}}/>
                 </MySmallDiv>
                 <MySmallDiv>
-                    <p style={{color:"white"}}>Spanish Language</p>
-                    <img src={language} style={{height:"7rem"}}/>
+                    <p className="skilltitle">Spanish Language</p>
+                    <img src={language} style={{height:"7vw"}}/>
                 </MySmallDiv>
             </MyBigDiv>
         </Container>

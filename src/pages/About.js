@@ -38,7 +38,6 @@ const About = () => {
                 <form method="get" action="resume.pdf" target="_blank" download>
                 <LightButton style={{width:"15vw", marginTop:"5vw", padding:"1vw"}}>View My Resume</LightButton>
                 </form>
-
             </div>
         </Container>
         </div>

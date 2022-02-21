@@ -38,6 +38,7 @@ width: 5rem;
 export const MyBigDiv = styled.div`
 display: flex;
 justify-content: flex-start;
+flex-wrap: wrap;
 `
 
 export const MySmallDiv = styled.div`
@@ -45,6 +46,7 @@ display: flex;
 flex-direction: column;
 align-items: center;
 margin-right: 4rem;
+margin-top: 2vw;
 `
 
 //in Contact
