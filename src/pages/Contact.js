@@ -1,13 +1,12 @@
 import React, {useState} from "react";
 import { Container, Form, Button } from "react-bootstrap";
 import { MyContainer, Header, MyButton, MyFormGroup, MyFormControl } from "../components/Styles.js";
-import useWindowSize from "../hooks/useWindowSize";
 
 
 const FORM_ENDPOINT = "https://public.herotofu.com/v1/1c240c00-89f5-11ec-9849-fb4467695b96";
 
 const Contact = () => {
-  const {width} = useWindowSize();
+
     const [submitted, setSubmitted] = useState(false);
     const handleSubmit = () => {
       setTimeout(() => {
@@ -24,9 +23,6 @@ const Contact = () => {
       );
     }
     return (
-      <div>
-      {/* visible when window greater than 500px, aka desktop */}
-      {width > 500 && (
     <div style={{display:"flex", justifyContent:"center", marginTop:"5rem", marginBottom: "5rem"}}>
     <MyContainer style={{width:"35%", padding:"4rem"}}>
         <Header style={{fontSize:"5rem"}}>
@@ -89,74 +85,6 @@ const Contact = () => {
       </Form.Group>
     </Form>
 </MyContainer>
-</div>
-    )}
-    {/* visible when less than than 500px, aka mobile */}
-    {width < 500 && (
-          <div style={{display:"flex", justifyContent:"center", marginTop:"3rem", marginBottom: "3rem"}}>
-          <MyContainer style={{width:"35%", padding:"4rem", display:"flex", justifyContent:"center", flexDirection:"column"}}>
-              <Header style={{fontSize:"3rem"}}>
-                  Let's Chat.
-              </Header>
-              <Form
-              action={FORM_ENDPOINT}
-              onSubmit={handleSubmit}
-              method="POST"
-              target="_blank"
-              >
-      
-              <MyFormGroup controlId="formBasicName">
-                <Form.Label style={{color:"white"}}>
-                  Name:
-                </Form.Label>
-                <br/>
-                <MyFormControl 
-                  type="text"
-                  placeholder="Name*"
-                  name="name"
-                  required
-                  />
-              </MyFormGroup>
-      
-              <MyFormGroup controlId="formBasicEmail">
-                  <Form.Label style={{color:"white"}}>
-                    Email:
-                  </Form.Label>
-                  <br/>
-                  <MyFormControl 
-                  type="email" 
-                  placeholder="Email*"
-                  required/>
-            </MyFormGroup>
-      
-            <MyFormGroup controlId="formBasicSubject">
-                  <Form.Label style={{color:"white"}}>
-                    Subject:
-                  </Form.Label>
-                  <br/>
-                  <MyFormControl 
-                  type="subject" 
-                  placeholder="Subject*"
-                  required/>
-            </MyFormGroup>
-      
-            <MyFormGroup controlID="formTextArea">
-              <Form.Label style={{color:"white"}}>Message:</Form.Label>
-              <br/>
-              <MyFormControl placeholder="Message*" as="textarea" rows={5} required/>
-            </MyFormGroup>
-      
-            <Form.Group style={{display:"flex", justifyContent:"center"}}>
-              <MyButton
-              type="submit"
-              >
-                Submit
-              </MyButton>
-            </Form.Group>
-          </Form>
-      </MyContainer>
-      </div>
-      )}
       </div>
     )
 }
