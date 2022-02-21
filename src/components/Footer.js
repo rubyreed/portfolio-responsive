@@ -10,13 +10,13 @@ const Footer = () => {
     const [overtwo, setOverTwo] = useState(false);
 
     return (
-<div>
-    <MyFooter style={{display:"flex", alignItems:"center"}} fixed="bottom">
-    <p style={{flexGrow:"1",fontSize:"1.3rem", color:`${ColorOne}`, marginLeft:"4vw", marginRight:"4vw", fontWeight:"900"}}>© Ruby Reed 2022</p>
-    <ResumeA style={{fontSize:"1.3rem", marginRight: "4vw", fontWeight:"900"}} href="resume.pdf" download>Download Resume</ResumeA>
+<div style={{paddingBottom:"60px"}}>
+    <MyFooter style={{display:"flex", alignItems:"center", width:"100%", position:"fixed", bottom:"0"}} fixed="bottom">
+    <p className="footercopy">© Ruby Reed 2022</p>
+    <ResumeA className="footerfont" href="resume.pdf" download>Download Resume</ResumeA>
     <div style={{display:"flex"}}>
-        <a onMouseOver={() => setOver(true)} onMouseOut={() => setOver(false)} style={{marginRight: "4rem"}} href = "https://www.linkedin.com/in/ruby-s-reed/" target="_blank"><img style={{height:"2.5rem"}} src={over ? linkedinwhite : linkedin} /></a>
-        <a onMouseOver={() => setOverTwo(true)} onMouseOut={() => setOverTwo(false)} style={{marginRight: "4rem"}} href = "https://github.com/rubyreed" target="_blank"><img style={{height:"2.5rem"}} src={overtwo ? githubwhite : github}/></a>
+        <a onMouseOver={() => setOver(true)} onMouseOut={() => setOver(false)} style={{marginRight: "4vw"}} href = "https://www.linkedin.com/in/ruby-s-reed/" target="_blank"><img style={{height:"2.5rem"}} src={over ? linkedinwhite : linkedin} /></a>
+        <a onMouseOver={() => setOverTwo(true)} onMouseOut={() => setOverTwo(false)} style={{marginRight: "4vw"}} href = "https://github.com/rubyreed" target="_blank"><img style={{height:"2.5rem"}} src={overtwo ? githubwhite : github}/></a>
     </div>
     </MyFooter>
 </div>
