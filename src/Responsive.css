@@ -64,6 +64,13 @@
     color: white;
     font-size: 0.6rem;
   }
+  /* in contact */
+  .contactcontainer {
+    width: 73%;
+    margin: 2rem;
+    padding: 2rem;
+    border-radius: 0.5rem;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -109,8 +116,8 @@
     margin: 5vw;
   }
   .projhead {
-    font-size: 7vw;
     margin-left: 10vw;
+    font-size: 7vw;
     margin-top: 10vw;
     margin-bottom: 11vw;
   }
@@ -131,6 +138,14 @@
   .skilltitle {
     color: white;
     font-size: 0.6rem;
+  }
+  /* in contact */
+  .contactcontainer {
+    width: 65%;
+    padding: 4rem;
+    margin: 2rem;
+    padding: 2rem;
+    border-radius: 0.5rem;
   }
 }
 
@@ -179,7 +194,7 @@
     font-size: 6vw;
     margin-left: 10vw;
     margin-top: 10vw;
-    margin-bottom: 11vw;
+    margin-bottom: 8vw;
   }
   /* in skills */
   .skillmain {
@@ -198,6 +213,14 @@
   .skilltitle {
     color: white;
     font-size: 0.8rem;
+  }
+  /* in contact */
+  .contactcontainer {
+    width: 58%;
+    padding: 4rem;
+    margin: 2rem;
+    padding: 2rem;
+    border-radius: 0.5rem;
   }
 }
 
@@ -246,7 +269,7 @@
     font-size: 6vw;
     margin-left: 10vw;
     margin-top: 10vw;
-    margin-bottom: 11vw;
+    margin-bottom: 8vw;
   }
   /* in skills */
   .skillmain {
@@ -265,6 +288,14 @@
   .skilltitle {
     color: white;
     font-size: 1rem;
+  }
+  /* in contact */
+  .contactcontainer {
+    width: 52%;
+    padding: 4rem;
+    margin: 2rem;
+    padding: 2rem;
+    border-radius: 0.5rem;
   }
 }
 
@@ -313,7 +344,7 @@
     font-size: 5vw;
     margin-left: 10vw;
     margin-top: 10vw;
-    margin-bottom: 11vw;
+    margin-bottom: 7vw;
   }
   /* in skills */
   .skillmain {
@@ -332,5 +363,13 @@
   .skilltitle {
     color: white;
     font-size: 1rem;
+  }
+  /* in contact */
+  .contactcontainer {
+    width: 45%;
+    padding: 4rem;
+    margin: 2rem;
+    padding: 2rem;
+    border-radius: 0.5rem;
   }
 }

@@ -24,8 +24,8 @@ const Contact = () => {
     }
     return (
     <div style={{display:"flex", justifyContent:"center", marginTop:"5rem", marginBottom: "5rem"}}>
-    <MyContainer style={{width:"35%", padding:"4rem"}}>
-        <Header style={{fontSize:"5rem"}}>
+    <MyContainer className="contactcontainer">
+        <Header style={{fontSize:"5rem", whiteSpace:"nowrap"}}>
             Let's Chat.
         </Header>
         <Form

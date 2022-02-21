@@ -52,9 +52,6 @@ margin-top: 2vw;
 //in Contact
 export const MyContainer = styled(Container)`
   background-color: ${ColorFour};
-  margin: 2rem;
-  padding: 2rem;
-  border-radius: 0.5rem;
 `;
 
 export const MyFormGroup = styled(Form.Group)`
@@ -65,7 +62,8 @@ export const MyFormControl = styled(Form.Control)`
 padding: 1rem;
 border-radius: .3rem;
 margin-top: .5rem;
-width: 95%;
+width: 94%;
+margin-right:-1rem;
 outline: none;
 border-style: none;
 box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
