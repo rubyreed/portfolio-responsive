@@ -11,7 +11,7 @@ const Projects = () => {
     return (
 <div>
     <Container>
-        <Header className="projhead">Projects</Header>
+        <Header className="projhead">My Work</Header>
         <div className="projdiv">
             <a href="https://vocaljournal.herokuapp.com/landing" target="_blank">
                 <img className="project" src={vocal}

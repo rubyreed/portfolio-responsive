@@ -8,6 +8,10 @@
     margin: 5vw;
     flex-direction: column;
   }
+  .homefont {
+    font-size: 10vw;
+    margin: 9vw;
+  }
   /* in about */
   .tagline {
     text-align: center;
@@ -104,6 +108,10 @@
     flex-wrap: wrap;
     margin: 5vw;
     flex-direction: column;
+  }
+  .homefont {
+    font-size: 10vw;
+    margin: 9vw;
   }
   /* in about */
   .tagline {
@@ -203,6 +211,10 @@
     margin: 5vw;
     flex-direction: column;
   }
+  .homefont {
+    font-size: 8vw;
+    margin: 7vw;
+  }
   /* in about */
   .tagline {
     text-align: center;
@@ -300,6 +312,10 @@
     margin: 5vw;
     flex-direction: column;
   }
+  .homefont {
+    font-size: 7vw;
+    margin: 6vw;
+  }
   /* in about */
   .tagline {
     text-align: center;
@@ -396,6 +412,10 @@
     flex-wrap: wrap;
     margin: 5vw;
     flex-direction: column;
+  }
+  .homefont {
+    font-size: 6vw;
+    margin: 5vw;
   }
   /* in about */
   .tagline {
