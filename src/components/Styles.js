@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { Container, Form, Navbar, Nav, NavDropdown } from "react-bootstrap";
+import {Navbar, Nav} from "react-bootstrap";
 
 export const ColorOne = "#343434"; //jet
 export const ColorTwo = "#18FF6D"; //spring green
@@ -92,11 +92,11 @@ width: 7rem;
 `
 
 //in Navbar
-export const MyNavbar = styled.div`
+export const MyNavbar = styled(Navbar)`
   background-color: ${ColorThree};
 `;
 
-export const MyNavLink = styled.a`
+export const MyNavLink = styled(Nav.Link)`
 color: ${ColorThree};
 text-decoration: none;
 font-size: 1.5rem;
@@ -112,7 +112,7 @@ align-items: center;
 }
 `
 
-export const MyNav = styled.nav`
+export const MyNav = styled(Nav)`
 display: flex;
 justify-content: space-evenly;
 align-items: center !important;
