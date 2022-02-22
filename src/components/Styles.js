@@ -113,10 +113,8 @@ align-items: center;
 `
 
 export const MyNav = styled(Nav)`
-display: flex;
-justify-content: space-evenly;
-align-items: center !important;
-height: 5rem;
+display:flex;
+justify-content: space-evenlu;
 `
 
 //in Footer
