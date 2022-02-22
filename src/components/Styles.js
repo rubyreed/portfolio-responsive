@@ -49,15 +49,16 @@ margin-top: 2vw;
 `
 
 //in Contact
-export const MyContainer = styled(Container)`
+export const MyContainer = styled.div`
   background-color: ${ColorFour};
 `;
 
-export const MyFormGroup = styled(Form.Group)`
+export const MyFormGroup = styled.fieldset`
 margin-bottom: 1rem;
+border: none;
 `
 
-export const MyFormControl = styled(Form.Control)`
+export const MyFormControl = styled.input`
 padding: 1rem;
 border-radius: .3rem;
 margin-top: .5rem;
@@ -91,11 +92,11 @@ width: 7rem;
 `
 
 //in Navbar
-export const MyNavbar = styled(Navbar)`
+export const MyNavbar = styled.div`
   background-color: ${ColorThree};
 `;
 
-export const MyNavLink = styled(Nav.Link)`
+export const MyNavLink = styled.a`
 color: ${ColorThree};
 text-decoration: none;
 font-size: 1.5rem;
@@ -111,7 +112,7 @@ align-items: center;
 }
 `
 
-export const MyNav = styled (Nav)`
+export const MyNav = styled.nav`
 display: flex;
 justify-content: space-evenly;
 align-items: center !important;
@@ -119,7 +120,7 @@ height: 5rem;
 `
 
 //in Footer
-export const MyFooter = styled(Navbar)`
+export const MyFooter = styled.div`
   background-color: ${ColorFour};
   height: 4rem;
 `;

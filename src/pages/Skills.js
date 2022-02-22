@@ -1,6 +1,5 @@
 import React from "react";
-import { Container } from "react-bootstrap";
-import { BigDiv, Header, MyBigDiv, MySmallDiv, SmallDiv } from "../components/Styles"
+import { Header, MyBigDiv, MySmallDiv } from "../components/Styles"
 import html from "../images/html.png"
 import css from "../images/css.png"
 import js from "../images/js.png"
@@ -26,7 +25,7 @@ import language from "../images/language.png"
 
 const Skills = () => {
     return (
-        <Container style={{margin:"5vw"}}>
+        <div style={{margin:"5vw"}}>
             <Header className="skillmain">Skills</Header>
                 <p className="skillbio">My skills primarily center on the Frontend and UI/UX, but also include Backend frameworks.</p>
             <Header className="skillhead">Frontend</Header>
@@ -125,7 +124,7 @@ const Skills = () => {
                     <img src={language} style={{height:"7vw"}}/>
                 </MySmallDiv>
             </MyBigDiv>
-        </Container>
+        </div>
     )
 }
 

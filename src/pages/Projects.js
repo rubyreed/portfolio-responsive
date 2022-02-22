@@ -1,5 +1,4 @@
 import React from "react";
-import { Container } from "react-bootstrap";
 import { Header } from "../components/Styles";
 import vocal from "../images/vocal.png"
 import kanatous from "../images/kanatous.png"
@@ -10,7 +9,7 @@ const Projects = () => {
 
     return (
 <div>
-    <Container>
+    <div>
         <Header className="projhead">My Work</Header>
         <div className="projdiv">
             <a href="https://vocaljournal.herokuapp.com/landing" target="_blank">
@@ -30,7 +29,7 @@ const Projects = () => {
                 />
             </a>
          </div>
-    </Container>
+    </div>
 </div>
     );
 };

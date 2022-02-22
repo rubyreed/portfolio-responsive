@@ -1,5 +1,4 @@
 import React, {useState} from "react";
-import { Container, Form, Button } from "react-bootstrap";
 import { MyContainer, Header, MyButton, MyFormGroup, MyFormControl } from "../components/Styles.js";
 
 
@@ -28,7 +27,7 @@ const Contact = () => {
         <Header className="contactheader">
             Let's Chat.
         </Header>
-        <Form
+        <form
         action={FORM_ENDPOINT}
         onSubmit={handleSubmit}
         method="POST"
@@ -36,9 +35,9 @@ const Contact = () => {
         >
 
         <MyFormGroup className="mb-3" controlId="formBasicName">
-          <Form.Label style={{color:"white"}}>
+          <label style={{color:"white"}}>
             Name:
-          </Form.Label>
+          </label>
           <br/>
           <MyFormControl 
             type="text"
@@ -49,9 +48,9 @@ const Contact = () => {
         </MyFormGroup>
 
         <MyFormGroup className="mb-3" controlId="formBasicEmail">
-            <Form.Label style={{color:"white"}}>
+            <label style={{color:"white"}}>
               Email:
-            </Form.Label>
+            </label>
             <br/>
             <MyFormControl 
             type="email" 
@@ -60,9 +59,9 @@ const Contact = () => {
       </MyFormGroup>
 
       <MyFormGroup className="mb-3" controlId="formBasicSubject">
-            <Form.Label style={{color:"white"}}>
+            <label style={{color:"white"}}>
               Subject:
-            </Form.Label>
+            </label>
             <br/>
             <MyFormControl 
             type="subject" 
@@ -71,19 +70,19 @@ const Contact = () => {
       </MyFormGroup>
 
       <MyFormGroup className="mb-3" controlID="formTextArea">
-        <Form.Label style={{color:"white"}}>Message:</Form.Label>
+        <label style={{color:"white"}}>Message:</label>
         <br/>
         <MyFormControl placeholder="Message*" as="textarea" rows={5} required/>
       </MyFormGroup>
 
-      <Form.Group className="mb-3">
+      <MyFormGroup>
         <MyButton
         type="submit"
         >
           Submit
         </MyButton>
-      </Form.Group>
-    </Form>
+      </MyFormGroup>
+    </form>
 </MyContainer>
       </div>
     )
