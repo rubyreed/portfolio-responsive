@@ -34,7 +34,7 @@ const About = () => {
                 from the University of Utah in 2022 and have been learning and building since then.
                 </center></p>
                 <form method="get" action="resume.pdf" target="_blank" download>
-                <LightButton className="lightbutton" style={{width:"15vw", marginTop:"5vw", padding:"1vw"}}>View My Resume</LightButton>
+                <LightButton className="lightbutton" style={{width:"15vw", marginTop:"5vw", padding:"3vw", whiteSpace:"nowrap"}}>View My Resume</LightButton>
                 </form>
             </div>
         </div>
