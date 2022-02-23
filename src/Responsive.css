@@ -44,8 +44,7 @@
     border-radius: 0.2rem;
     height: 14rem;
     width: 20rem;
-    margin-right: 2rem;
-    margin-bottom: 2rem;
+    margin: 2rem;
     object-fit: cover;
   }
 
@@ -103,7 +102,7 @@
   .contactheader {
     margin: auto;
     margin-bottom: 1rem;
-    font-size: 12vw;
+    font-size: 10vw;
     white-space: nowrap;
   }
   /* in footer */
@@ -169,8 +168,7 @@
     border-radius: 0.2rem;
     height: 14rem;
     width: 20rem;
-    margin-right: 2rem;
-    margin-bottom: 2rem;
+    margin: 2rem;
     object-fit: cover;
   }
 
@@ -226,7 +224,7 @@
   .contactheader {
     margin: auto;
     margin-bottom: 1rem;
-    font-size: 12vw;
+    font-size: 10vw;
     white-space: nowrap;
   }
   /* in footer */
@@ -293,8 +291,7 @@
     border-radius: 0.2rem;
     height: 16rem;
     width: 22rem;
-    margin-right: 2rem;
-    margin-bottom: 2rem;
+    margin: 2rem;
     object-fit: cover;
   }
 
@@ -348,7 +345,7 @@
     border-radius: 0.5rem;
   }
   .contactheader {
-    font-size: 10vw;
+    font-size: 9vw;
     white-space: nowrap;
     margin: auto;
     margin-bottom: 1rem;
@@ -417,8 +414,7 @@
     border-radius: 0.2rem;
     height: 16rem;
     width: 22rem;
-    margin-right: 2rem;
-    margin-bottom: 2rem;
+    margin: 2rem;
     object-fit: cover;
   }
 
@@ -474,7 +470,7 @@
   .contactheader {
     margin: auto;
     margin-bottom: 1rem;
-    font-size: 9vw;
+    font-size: 8vw;
     white-space: nowrap;
   }
   /* in footer */
@@ -541,8 +537,7 @@
     border-radius: 0.2rem;
     height: 20rem;
     width: 26rem;
-    margin-right: 2rem;
-    margin-bottom: 2rem;
+    margin: 2rem;
     object-fit: cover;
   }
 
@@ -598,7 +593,7 @@
   .contactheader {
     margin: auto;
     margin-bottom: 1rem;
-    font-size: 6vw;
+    font-size: 7vw;
     white-space: nowrap;
   }
   /* in footer */

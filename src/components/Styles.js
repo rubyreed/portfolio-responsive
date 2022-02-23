@@ -90,6 +90,7 @@ width: 7rem;
 //in Navbar
 export const MyNavbar = styled(Navbar)`
   background-color: ${ColorThree};
+  height: 4rem;
 `;
 
 export const MyNavLink = styled(Nav.Link)`
