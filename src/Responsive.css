@@ -23,6 +23,8 @@
     text-align: center;
     color: white;
     font-size: 2.5rem;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
   }
   .bio {
     color: white;
@@ -78,18 +80,18 @@
     font-size: 3rem;
   }
   .skillhead {
-    margin-top: 8vw;
     font-size: 1.5rem;
   }
   .skillbio {
     color: white;
     font-size: 1rem;
     margin-top: -1.5vw;
-    margin-bottom: 3vw;
+    margin-bottom: 8vw;
   }
   .skilltitle {
     color: white;
     font-size: 0.6rem;
+    margin-top: 0.5rem;
   }
   /* in contact */
   .contactcontainer {
@@ -146,6 +148,8 @@
     text-align: center;
     color: white;
     font-size: 2.5rem;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
   }
   .bio {
     color: white;
@@ -200,14 +204,13 @@
     font-size: 3rem;
   }
   .skillhead {
-    margin-top: 8vw;
     font-size: 1.5rem;
   }
   .skillbio {
     color: white;
     font-size: 1rem;
     margin-top: -1.5vw;
-    margin-bottom: 3vw;
+    margin-bottom: 8vw;
   }
   .skilltitle {
     color: white;
@@ -269,6 +272,8 @@
     text-align: center;
     color: white;
     font-size: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
   }
   .bio {
     color: white;
@@ -323,14 +328,13 @@
     font-size: 4rem;
   }
   .skillhead {
-    margin-top: 8vw;
     font-size: 2rem;
   }
   .skillbio {
     color: white;
     font-size: 1.5rem;
     margin-top: -1.5vw;
-    margin-bottom: 3vw;
+    margin-bottom: 8vw;
   }
   .skilltitle {
     color: white;
@@ -392,6 +396,8 @@
     text-align: center;
     color: white;
     font-size: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
   }
   .bio {
     color: white;
@@ -446,14 +452,13 @@
     font-size: 5rem;
   }
   .skillhead {
-    margin-top: 8vw;
     font-size: 3rem;
   }
   .skillbio {
     color: white;
     font-size: 2rem;
     margin-top: -1.5vw;
-    margin-bottom: 3vw;
+    margin-bottom: 8vw;
   }
   .skilltitle {
     color: white;
@@ -515,6 +520,8 @@
     text-align: center;
     color: white;
     font-size: 3.5rem;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
   }
   .bio {
     color: white;
@@ -569,14 +576,13 @@
     font-size: 5rem;
   }
   .skillhead {
-    margin-top: 8vw;
     font-size: 3rem;
   }
   .skillbio {
     color: white;
     font-size: 2rem;
     margin-top: -1.5vw;
-    margin-bottom: 3vw;
+    margin-bottom: 8vw;
   }
   .skilltitle {
     color: white;

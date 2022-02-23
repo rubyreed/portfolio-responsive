@@ -19,11 +19,11 @@ const About = () => {
             <div style={{display: "flex", flexDirection: "column", alignItems: "center", marginRight: "4vw", maxWidth:"60vw", marginBottom:"5vw"}}>
                 <img className="profileimg" style={{objectFit:"cover", marginTop:"5vw", marginBottom:"1vw", boxShadow: "rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset"}} src={ruby} alt="ruby"/>
                 <div style={{display:"flex", flexDirection:"row", justifyContent:"center"}}>
-                <a href = "https://github.com/rubyreed" target="_blank"><img style={{minHeight: "1.5rem", height:"3vw", padding:"1vw"}} src={githubwhite}/></a>
-                <a href = "https://www.linkedin.com/in/ruby-s-reed/" target="_blank"><img style={{minHeight:"1.5rem", height:"3vw", padding:"1vw"}} src={linkedinwhite}/></a>
+                <a href = "https://github.com/rubyreed" target="_blank"><img style={{minHeight: "2.3rem", height:"3vw", margin:"1rem"}} src={githubwhite}/></a>
+                <a href = "https://www.linkedin.com/in/ruby-s-reed/" target="_blank"><img style={{minHeight:"2.3rem", height:"3vw", margin:"1rem"}} src={linkedinwhite}/></a>
                 <nav onSelect={handleSelect}>
                     <a eventKey="/contact">
-                        <img style={{minHeight:"1.5rem", height:"3vw", padding:"1vw"}} src={contactwhite}/>
+                        <img style={{minHeight:"2.3rem", height:"3vw", margin:"1rem"}} src={contactwhite}/>
                     </a>
                 </nav>
                 </div>
@@ -34,7 +34,7 @@ const About = () => {
                 from the University of Utah in 2022 and have been learning and building since then.
                 </center></p>
                 <form method="get" action="resume.pdf" target="_blank" download>
-                <LightButton className="lightbutton" style={{width:"15vw", marginTop:"5vw", padding:"3vw", whiteSpace:"nowrap"}}>View My Resume</LightButton>
+                <LightButton className="lightbutton" style={{marginTop:"5vw", padding:"1.5rem", whiteSpace:"nowrap"}}>View My Resume</LightButton>
                 </form>
             </div>
         </div>

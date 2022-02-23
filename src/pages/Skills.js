@@ -25,9 +25,11 @@ import language from "../images/language.png"
 
 const Skills = () => {
     return (
+        <>
         <div style={{margin:"5vw"}}>
             <Header className="skillmain">Skills</Header>
                 <p className="skillbio">My skills primarily center on the Frontend and UI/UX, but also include Backend frameworks.</p>
+            <div style={{backgroundColor:"#616161", padding:"1rem", borderRadius:".3rem", marginTop:"2rem"}}>
             <Header className="skillhead">Frontend</Header>
             <MyBigDiv>
                 <MySmallDiv>
@@ -59,6 +61,8 @@ const Skills = () => {
                     <img src={bootstrap} style={{height:"7vw"}}/>
                 </MySmallDiv>
             </MyBigDiv>
+            </div>
+            <div style={{backgroundColor:"#616161", padding:"1rem", borderRadius:".3rem", marginTop:"2rem"}}>
             <Header className="skillhead">Design</Header>
             <MyBigDiv>
                 <MySmallDiv>
@@ -82,6 +86,8 @@ const Skills = () => {
                     <img src={wordpress} style={{height:"7vw"}}/>
                 </MySmallDiv>
             </MyBigDiv>
+            </div>
+            <div style={{backgroundColor:"#616161", padding:"1rem", borderRadius:".3rem", marginTop:"2rem"}}>
             <Header className="skillhead">Backend</Header>
             <MyBigDiv>
                 <MySmallDiv>
@@ -97,6 +103,8 @@ const Skills = () => {
                     <img src={postgresql} style={{height:"7vw"}}/>
                 </MySmallDiv>
             </MyBigDiv>
+            </div>
+            <div style={{backgroundColor:"#616161", padding:"1rem", borderRadius:".3rem", marginTop:"2rem"}}>
             <Header className="skillhead">Other</Header>
             <MyBigDiv>
                 <MySmallDiv>
@@ -124,7 +132,9 @@ const Skills = () => {
                     <img src={language} style={{height:"7vw"}}/>
                 </MySmallDiv>
             </MyBigDiv>
+            </div>
         </div>
+        </>
     )
 }
 
