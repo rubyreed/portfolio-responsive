@@ -22,7 +22,7 @@ const Contact = () => {
       );
     }
     return (
-    <div style={{display:"flex", justifyContent:"center", marginTop:"4rem"}}>
+    <div style={{display:"flex", justifyContent:"center"}}>
     <MyContainer className="contactcontainer">
         <Header className="contactheader">
             Let's Chat.

@@ -521,7 +521,7 @@
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
-    margin: 5vw;
+    margin: 2vw;
     flex-direction: column;
   }
   .homefont {
@@ -609,7 +609,7 @@
   /* in contact */
   .contactcontainer {
     width: 45%;
-    margin: 2vw;
+    margin: 1vw;
     padding: 3vw;
     border-radius: 0.5rem;
   }
