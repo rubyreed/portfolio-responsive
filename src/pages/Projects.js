@@ -10,7 +10,7 @@ const Projects = () => {
     return (
 <div>
     <div>
-        <Header className="projhead">My Work</Header>
+        <Header className="projhead">My Projects</Header>
         <div className="projdiv">
             <a href="https://vocaljournal.herokuapp.com/landing" target="_blank">
                 <img className="project" src={vocal}

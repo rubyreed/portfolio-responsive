@@ -1,3 +1,19 @@
+/* when navbar is collapsed */
+@media only screen and (max-width: 575px) {
+  /* in navbar */
+  .navbar-nav .nav-link {
+    background-color: #947eb0;
+    margin: 0.5rem;
+    padding: 0.8rem !important;
+    border-radius: 0.3rem;
+  }
+  .navbar-collapse.collapsing,
+  .navbar-collapse.show {
+    padding: 1.5rem;
+    background-color: rgba(232, 241, 242, 0.8);
+    margin-top: 1rem !important;
+  }
+}
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   /* in home */

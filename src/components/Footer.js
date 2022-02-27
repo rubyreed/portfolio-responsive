@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import { MyFooter, ResumeA, ColorOne, SmallFooter } from "./Styles";
+import { MyFooter, ResumeA } from "./Styles";
 import linkedin from "../images/linkedin.ico"
 import github from "../images/github.ico"
 import linkedinwhite from "../images/linkedinwhite.png"

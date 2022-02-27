@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import {Navbar, Nav} from "react-bootstrap";
+import {Navbar} from "react-bootstrap";
 
 export const ColorOne = "#343434"; //jet
 export const ColorTwo = "#18FF6D"; //spring green
@@ -89,30 +89,9 @@ width: 7rem;
 
 //in Navbar
 export const MyNavbar = styled(Navbar)`
-  background-color: ${ColorThree};
+  background-color: ${ColorThree} !important;
   height: 4rem;
 `;
-
-export const MyNavLink = styled(Nav.Link)`
-color: ${ColorThree};
-text-decoration: none;
-font-size: 1.5rem;
-display: flex;
-justify-content: center;
-flex-direction: column;
-align-items: center;
-&:hover {
-  color: ${ColorOne};
-}
-&:active {
-  color: ${ColorOne};
-}
-`
-
-export const MyNav = styled(Nav)`
-display:flex;
-justify-content: space-evenlu;
-`
 
 //in Footer
 export const MyFooter = styled.div`

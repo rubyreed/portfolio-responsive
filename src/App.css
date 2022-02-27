@@ -1,14 +1,17 @@
 * {
   font-family: "Montserrat", sans-serif;
 }
-.navbar-collapse.collapsing,
-.navbar-collapse.show {
-  margin-left: 45%;
-}
-navbar-light .navbar-nav .nav-link img {
-  height: 3rem;
-}
 
 .navimg {
   height: 2.7rem;
+}
+
+.collapse {
+  background-color: #e8f1f2;
+  margin: 0 !important;
+}
+
+.navbar-nav {
+  display: flex;
+  align-items: center !important;
 }
