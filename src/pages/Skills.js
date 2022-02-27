@@ -26,7 +26,7 @@ import language from "../images/language.png"
 const Skills = () => {
     return (
         <>
-        <div style={{margin:"5vw"}}>
+        <div style={{margin:"5vw", marginTop:"5rem"}}>
             <Header className="skillmain">Skills</Header>
                 <p className="skillbio">My skills primarily center on the Frontend and UI/UX, but also include Backend frameworks.</p>
             <div style={{backgroundColor:"#616161", padding:"1rem", borderRadius:".3rem", marginTop:"2rem"}}>

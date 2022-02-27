@@ -15,9 +15,9 @@ const About = () => {
       };
 
     return (
-        <div style={{display:"flex", justifyContent:"center", height: "100%"}}>
+        <div style={{display:"flex", justifyContent:"center", height: "100%", marginTop:"3rem"}}>
             <div style={{display: "flex", flexDirection: "column", alignItems: "center", marginRight: "4vw", maxWidth:"60vw", marginBottom:"5vw"}}>
-                <img className="profileimg" style={{objectFit:"cover", marginTop:"5vw", marginBottom:"1vw", boxShadow: "rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset"}} src={ruby} alt="ruby"/>
+                <img className="profileimg" style={{objectFit:"cover", marginTop:"2rem", marginBottom:"1vw", boxShadow: "rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset"}} src={ruby} alt="ruby"/>
                 <div style={{display:"flex", flexDirection:"row", justifyContent:"center"}}>
                 <a href = "https://github.com/rubyreed" target="_blank"><img style={{minHeight: "2.3rem", height:"3vw", margin:"1rem"}} src={githubwhite}/></a>
                 <a href = "https://www.linkedin.com/in/ruby-s-reed/" target="_blank"><img style={{minHeight:"2.3rem", height:"3vw", margin:"1rem"}} src={linkedinwhite}/></a>

@@ -15,14 +15,14 @@ const Contact = () => {
   
     if (submitted) {
       return (
-        <MyContainer style={{borderRadius:".3rem",padding:"4rem",width: "20%",display:"flex",textAlign:"center", margin:"auto",marginBottom:"5rem",marginTop:"5rem",flexDirection:"column"}}>
+        <MyContainer style={{ minWidth:"12rem", marginLeft: "15vw", marginRight: "15vw",marginTop: "10vw", borderRadius:".3rem",padding:"4rem",display:"flex",textAlign:"center",flexDirection:"column"}}>
           <h1 style={{color:"white"}}>Thank you!</h1>
           <p style={{color:"white"}}>I'll be in touch soon.</p>
         </MyContainer>
       );
     }
     return (
-    <div style={{display:"flex", justifyContent:"center"}}>
+    <div style={{display:"flex", justifyContent:"center", marginTop:"4rem"}}>
     <MyContainer className="contactcontainer">
         <Header className="contactheader">
             Let's Chat.

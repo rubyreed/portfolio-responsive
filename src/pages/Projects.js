@@ -9,7 +9,7 @@ const Projects = () => {
 
     return (
 <div>
-    <div>
+    <div style={{marginTop:"6rem"}}>
         <Header className="projhead">My Projects</Header>
         <div className="projdiv">
             <a href="https://vocaljournal.herokuapp.com/landing" target="_blank">
