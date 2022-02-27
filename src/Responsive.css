@@ -130,13 +130,13 @@
   }
   /* in footer */
   .footerfont {
-    font-size: 0.8rem;
-    margin-right: 4vw;
+    font-size: 1rem;
+    margin-right: 0rem;
     font-weight: 900;
   }
   .footercopy {
     flex-grow: 1;
-    font-size: 0.8rem;
+    font-size: 1rem;
     color: #343434;
     margin-left: 4vw;
     font-weight: 900;
