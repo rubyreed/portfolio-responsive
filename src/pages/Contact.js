@@ -15,7 +15,7 @@ const Contact = () => {
   
     if (submitted) {
       return (
-        <MyContainer style={{padding:"4rem",width: "20%",display:"flex",textAlign:"center", margin:"auto",marginBottom:"5rem",marginTop:"5rem",flexDirection:"column"}}>
+        <MyContainer style={{borderRadius:".3rem",padding:"4rem",width: "20%",display:"flex",textAlign:"center", margin:"auto",marginBottom:"5rem",marginTop:"5rem",flexDirection:"column"}}>
           <h1 style={{color:"white"}}>Thank you!</h1>
           <p style={{color:"white"}}>I'll be in touch soon.</p>
         </MyContainer>
