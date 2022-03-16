@@ -45,13 +45,13 @@
   .tagline {
     text-align: center;
     color: white;
-    font-size: 2.5rem;
+    font-size: 2rem;
     margin-top: 2rem;
     margin-bottom: 1.5rem;
   }
   .bio {
     color: white;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
   .lightbutton {
     font-size: 0.8rem;
@@ -131,7 +131,7 @@
   /* in footer */
   .footerfont {
     font-size: 1rem;
-    margin-right: 0rem;
+    margin-right: 1rem;
     font-weight: 900;
   }
   .footercopy {
@@ -169,13 +169,13 @@
   .tagline {
     text-align: center;
     color: white;
-    font-size: 2.5rem;
+    font-size: 2rem;
     margin-top: 2rem;
     margin-bottom: 1.5rem;
   }
   .bio {
     color: white;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
   .lightbutton {
     font-size: 0.9rem;
@@ -292,13 +292,13 @@
   .tagline {
     text-align: center;
     color: white;
-    font-size: 3rem;
+    font-size: 2.5rem;
     margin-top: 2rem;
     margin-bottom: 1.5rem;
   }
   .bio {
     color: white;
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
   .lightbutton {
     font-size: 1rem;
@@ -415,13 +415,13 @@
   .tagline {
     text-align: center;
     color: white;
-    font-size: 3rem;
+    font-size: 2.5rem;
     margin-top: 2rem;
     margin-bottom: 1.5rem;
   }
   .bio {
     color: white;
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
   .lightbutton {
     font-size: 1.3rem;
@@ -538,13 +538,13 @@
   .tagline {
     text-align: center;
     color: white;
-    font-size: 3.5rem;
+    font-size: 3rem;
     margin-top: 2rem;
     margin-bottom: 1.5rem;
   }
   .bio {
     color: white;
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
   .lightbutton {
     font-size: 1.5rem;
