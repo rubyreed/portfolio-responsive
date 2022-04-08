@@ -20,10 +20,10 @@ const Projects = () => {
                 <img className="project" src={kanatous}
                 />
             </a>
-            <a href="https://mchaulenterprises.wixsite.com/mchaulenterprises" target="_blank">
+            {/* <a href="https://mchaulenterprises.wixsite.com/mchaulenterprises" target="_blank">
                 <img className="project" src={mchaul}
                 />
-            </a>
+            </a> */}
             <a href="https://ruby-reed.wixsite.com/rambleon" target="_blank">
                 <img className="project" src={rambleon}
                 />
