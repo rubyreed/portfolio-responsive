@@ -55,6 +55,7 @@ const Contact = () => {
             <MyFormControl 
             type="email" 
             placeholder="Email*"
+            name="email"
             required/>
       </MyFormGroup>
 
@@ -66,13 +67,19 @@ const Contact = () => {
             <MyFormControl 
             type="subject" 
             placeholder="Subject*"
+            name="subject"
             required/>
       </MyFormGroup>
 
       <MyFormGroup className="mb-3" controlID="formTextArea">
         <label style={{color:"white"}}>Message:</label>
         <br/>
-        <MyFormControl placeholder="Message*" as="textarea" rows={5} required/>
+        <MyFormControl
+          placeholder="Message*"
+          as="textarea"
+          rows={5}
+          name="message"
+          required/>
       </MyFormGroup>
 
       <MyFormGroup>
