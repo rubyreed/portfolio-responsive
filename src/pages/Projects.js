@@ -2,7 +2,7 @@ import React from "react";
 import { Header } from "../components/Styles";
 import vocal from "../images/vocal.png"
 import kanatous from "../images/kanatous.png"
-import mchaul from "../images/mchaul.png"
+import dfp from "../images/DFP.png"
 import rambleon from "../images/rambleon.png"
 
 const Projects = () => {
@@ -12,6 +12,10 @@ const Projects = () => {
     <div>
         <Header className="projhead">My Projects</Header>
         <div className="projdiv">
+            <a href="https://www.dailyfireprotection-nw.com/" target="_blank">
+                <img className="project" src={dfp}
+                />
+            </a>
             <a href="https://vocaljournal.herokuapp.com/landing" target="_blank">
                 <img className="project" src={vocal}
                 />
@@ -20,10 +24,6 @@ const Projects = () => {
                 <img className="project" src={kanatous}
                 />
             </a>
-            {/* <a href="https://mchaulenterprises.wixsite.com/mchaulenterprises" target="_blank">
-                <img className="project" src={mchaul}
-                />
-            </a> */}
             <a href="https://ruby-reed.wixsite.com/rambleon" target="_blank">
                 <img className="project" src={rambleon}
                 />
