@@ -8,6 +8,7 @@ import Skills from './pages/Skills';
 import Projects from './pages/Projects';
 import Contact from './pages/Contact';
 import Footer from './components/Footer';
+import Submitted from './pages/Submitted';
 
 
 
@@ -16,6 +17,7 @@ function App() {
     <div>
       <NavBar/>
         <Routes>
+          <Route path="/submitted" element={<Submitted/>}/>
           <Route path="/" element={<Home/>}/>
           <Route path="/about" element={<About/>}/>
           <Route path="/skills" element={<Skills/>}/>
