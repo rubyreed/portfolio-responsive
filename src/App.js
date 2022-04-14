@@ -13,8 +13,9 @@ import Submitted from './pages/Submitted';
 
 
 function App() {
+  
   return (
-    <div>
+    <div> 
       <NavBar/>
         <Routes>
           <Route path="/submitted" element={<Submitted/>}/>

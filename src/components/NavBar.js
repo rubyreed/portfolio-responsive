@@ -1,7 +1,7 @@
-import { Navbar, Container, Nav } from "react-bootstrap";
+import { Navbar, Nav } from "react-bootstrap";
 import React, {useState} from "react";
 import { useNavigate } from "react-router-dom";
-import { MyNavbar, MyNavLink, MyNav, ColorOne} from "./Styles";
+import { MyNavbar, ColorOne} from "./Styles";
 import home from "../images/home.png"
 import homepurp from "../images/homepurp.png"
 import about from "../images/about.png"
